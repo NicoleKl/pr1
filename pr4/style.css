@@ -1,0 +1,20 @@
+h1 {
+    color: green;
+}
+
+div {
+    background-color: yellow;
+}
+.p1 {
+    background-image: url("https://img.pngio.com/group-of-turtles-with-no-background-clipart-clip-art-images-group-of-turtles-with-no-background-png-800_800.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: orangered;
+}
+
+.p2 {
+    background-image: url("https://img.pngio.com/group-of-turtles-with-no-background-clipart-clip-art-images-group-of-turtles-with-no-background-png-800_800.png");
+    background-size: contain;
+    color: orangered;
+
+}
