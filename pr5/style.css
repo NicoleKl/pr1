@@ -1,0 +1,47 @@
+input[type="checkbox"] {
+    display: none;
+}
+
+label {
+    color: white;
+    margin-right: 10px;
+}
+
+#click1[type="checkbox"] + label {
+    background-color: red;
+}
+
+#click2[type="checkbox"] + label {
+    background-color: green;
+}
+
+#click3[type="checkbox"] + label {
+    background-color: blue;
+}
+
+#click4[type="checkbox"] + label {
+    background-color: purple;
+}
+
+/*Checked styles*/
+
+#click1[type="checkbox"]:checked + label {
+    text-decoration: underline;
+}
+
+#click2[type="checkbox"]:checked + label {
+    font-weight: bold;
+}
+
+#click3[type="checkbox"]:checked + label {
+    background-color: yellow;
+    color: black;
+}
+
+#click4[type="checkbox"]:checked + label::before{
+    content: "~";
+}
+
+#click4[type="checkbox"]:checked + label::after {
+    content: "~";
+}

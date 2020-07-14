@@ -1,0 +1,53 @@
+h1 {
+    color: orange;
+    text-align: right;
+    font-size: 30pt;
+}
+
+p:first-letter {
+    color: red;
+    font-size: 20px;
+}
+
+span.green {
+    background-color: green;
+    font-style: italic;
+    color: white;
+}
+
+h2.garden {
+    color: orange;
+}
+
+span.fruits1 {
+    color: grey;
+
+}
+
+span.veg {
+    color: red;
+}
+
+span.bold {
+    font-weight: bold;
+}
+
+h2.stock {
+    color: blue;
+}
+
+span.fruits2 {
+    color: green;
+}
+
+td.name {
+    color: orange;
+    background-color: white;
+    text-align: left;
+}
+
+td {
+    background-color: green;
+    text-align: center;
+    color: white;
+}

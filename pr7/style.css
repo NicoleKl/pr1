@@ -1,0 +1,48 @@
+ul {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    color: #48a7e4;
+    font-weight: bold;
+}
+
+li {
+    float: left;
+    margin-top: 20px;
+}
+
+.next a {
+    border-style: none;
+}
+
+a:hover {
+    background-color: #48a7e4;
+    color: white;
+}
+.next a:hover {
+    background-color: white;
+    color: #48a7e4;
+}
+
+div {
+    clear: both;
+}
+
+.previous a {
+    border-style: none;
+    padding-right: 40px;
+}
+
+.previous a:hover {
+    background-color: white;
+    color: #48a7e4;

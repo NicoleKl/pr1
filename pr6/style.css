@@ -1,0 +1,28 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    background-color:#000070;
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+    background-color:#4527a0;
+    color: white;
+    font-family: Arial, sans-serif;
+    line-height: 50px;
+    display: block;
+    padding: 0px 20px;
+}
+
+li {
+    float:left;
+}
+.right {
+    float: right;
+}
+
+a:hover {
+    background-color: #7953d2;
+}
