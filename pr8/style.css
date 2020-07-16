@@ -1,0 +1,128 @@
+.body {
+    background-color: #8b9eaf;
+    width: 630px;
+    height: 300px;
+    border: 5px solid black;
+    position: relative;
+}
+
+.body2 {
+    background-color: #3b3e45;
+    width: 510px;
+    height: 210px;
+    border: 5px solid black;
+    position: absolute;
+    top: 40px;
+    left: 55px;
+}
+
+.tooth1 {
+    background-color: white;
+    width: 60px;
+    height: 50px;
+    border: 5px solid black;
+    border-top: none;
+    position: absolute;
+    top: 0px;
+    left: 170px;
+}
+
+.tooth2 {
+    background-color: white;
+    width: 60px;
+    height: 50px;
+    border: 5px solid black;
+    border-top: none;
+    position: absolute;
+    top: 0px;
+    right: 170px;
+}
+
+.head {
+    background-color: #8b9eaf;
+    width: 570px;
+    height: 180px;
+    border: 5px solid black;
+    border-bottom: none;
+    margin-left: 30px;
+    position: relative;
+}
+
+.face {
+    background-color: #8b9eaf;
+    width: 480px;
+    height: 150px;
+    border: 5px solid black;
+    border-bottom: none;
+    position: absolute;
+    left: 40px;
+    top: 25px;
+}
+
+.eye1 {
+    background-color: #fcba25;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    border: 10px solid black;
+    position: absolute;
+    left: 85px;
+    top: 20px;
+}
+
+.eye2 {
+    background-color: #e63614;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    border: 10px solid black;
+    position: absolute;
+    right: 85px;
+    top: 20px;
+}
+
+.pupil1 {
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.pupil2 {
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.ear1 {
+    background-color: #fcba25;
+    border: 5px solid #c16a23;
+    width: 60px;
+    height: 150px;
+    margin-left: 205px;
+    position: relative;
+}
+
+.ear2 {
+    background-color: #fcba25;
+    border: 5px solid #c16a23;
+    width: 60px;
+    height: 150px;
+    left: 155px;
+    top: -5px;
+    position: absolute;
+}
+
+.inear {
+    background-color: #e63614;
+    width: 10px;
+    height: 100px;
+    left: 25px;
+    top: 25px;
+    position: absolute;
+}
