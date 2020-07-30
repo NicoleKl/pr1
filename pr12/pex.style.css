@@ -161,7 +161,7 @@ input[type="search"]::-webkit-search-cancel-button {
     text-align: justify;
     color: white;
     margin-top: 79px;
-    margin-left: 24%;
+    margin-right: 5%;
     margin-bottom: 71px;
     width: 813px;
     column-count: 2;
@@ -177,4 +177,11 @@ input[type="search"]::-webkit-search-cancel-button {
 .description {
     margin-top: 0;
     margin-bottom: 68px;
+}
+
+.belowText {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    height: 100vh;
 }
