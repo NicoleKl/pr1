@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased; }
+
+body {
+  background-image: url("../backg-1.jpg");
+  background-size: cover;
+  font-family: 'Rubik', sans-serif; }
+
+.creating-chat {
+  opacity: 80%;
+  background: #fff;
+  width: 700px;
+  margin: 65px auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2); }
+  .creating-chat .header-of-form {
+    display: flex;
+    align-items: center;
+    margin: 35px; }
+    .creating-chat .header-of-form .logged-in-user {
+      display: flex;
+      align-items: center;
+      padding-left: 30px; }
+      .creating-chat .header-of-form .logged-in-user .user-label {
+        text-align: center;
+        font-size: 40px;
+        color: #494a4e; }
+      .creating-chat .header-of-form .logged-in-user .name-of-user {
+        padding-left: 10px;
+        font-size: 30px;
+        color: #494a4e;
+        text-transform: uppercase; }
+    .creating-chat .header-of-form .chat-number {
+      display: flex;
+      align-items: center;
+      padding-left: 30px; }
+      .creating-chat .header-of-form .chat-number .chat-label {
+        text-align: center;
+        font-size: 40px;
+        color: #494a4e; }
+      .creating-chat .header-of-form .chat-number .number-of-chat {
+        padding-left: 10px;
+        font-size: 30px;
+        color: #494a4e;
+        text-transform: uppercase; }
+    .creating-chat .header-of-form .exiting {
+      font-size: 18px;
+      display: flex;
+      flex-direction: column;
+      margin-left: auto;
+      margin-bottom: auto; }
+      .creating-chat .header-of-form .exiting logout-button #logout {
+        color: #494a4e; }
+      .creating-chat .header-of-form .exiting exit-button {
+        margin-top: 10px; }
+        .creating-chat .header-of-form .exiting exit-button #exit {
+          color: #494a4e; }
+    .creating-chat .header-of-form .logo {
+      width: 120px; }
+
+.chating {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: auto; }
+  .chating .messages {
+    padding: 8px;
+    border: solid #494a4e;
+    border-width: 1px;
+    min-height: 500px;
+    max-height: 500px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden; }
+    .chating .messages::-webkit-scrollbar {
+      display: none; }
+    .chating .messages .first-message {
+      margin-top: auto; }
+    .chating .messages .new-message {
+      opacity: 100%;
+      z-index: 2;
+      display: block;
+      float: right;
+      color: #e1c4b9;
+      background: #494a4e;
+      max-width: 50%;
+      min-width: 100px;
+      word-wrap: break-word;
+      margin-bottom: 12px;
+      line-height: 24px;
+      position: relative;
+      padding: 10px;
+      align-self: flex-end;
+      justify-self: flex-end;
+      border-radius: .4em;
+      margin-right: 10px; }
+      .chating .messages .new-message .with-user {
+        font-size: 15px; }
+      .chating .messages .new-message .with-message {
+        font-size: 20px; }
+    .chating .messages .mes-from-me:after {
+      content: '';
+      position: absolute;
+      right: 0;
+      top: 50%;
+      width: 0;
+      height: 0;
+      border: 15px solid transparent;
+      border-left-color: #494a4e;
+      border-right: 0;
+      border-bottom: 0;
+      margin-top: -7.5px;
+      margin-right: -15px; }
+    .chating .messages .mes-from-them {
+      margin-right: auto;
+      margin-left: 10px; }
+      .chating .messages .mes-from-them:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 0;
+        height: 0;
+        border: 15px solid transparent;
+        border-right-color: #494a4e;
+        border-left: 0;
+        border-bottom: 0;
+        margin-top: -7.5px;
+        margin-left: -15px; }
+  .chating form {
+    margin: 0;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 50px; }
+    .chating form #text-field {
+      width: 90%;
+      font-size: 20px;
+      padding: 5px;
+      border: none;
+      border-bottom: solid #494a4e;
+      border-bottom-width: 1px;
+      color: #494a4e;
+      outline-width: 0;
+      transition: all .3s;
+      margin-right: 0; }
+    .chating form .send-message {
+      font-size: 30px;
+      border: none;
+      padding: 15px;
+      font-family: 'Rubik', sans-serif;
+      cursor: pointer;
+      text-transform: uppercase;
+      background: none;
+      color: #494a4e;
+      font-weight: bold;
+      outline: 0;
+      transition: all .3s; }
+      .chating form .send-message:hover {
+        color: #e1c4b9; }

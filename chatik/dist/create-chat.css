@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased; }
+
+body {
+  background-image: url("../backg-1.jpg");
+  background-size: cover;
+  font-family: 'Rubik', sans-serif; }
+
+.creating-chat {
+  opacity: 80%;
+  background: #fff;
+  width: 500px;
+  margin: 65px auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2); }
+  .creating-chat .header-of-form {
+    display: flex;
+    align-items: center;
+    margin: 35px;
+    margin-bottom: 40px; }
+    .creating-chat .header-of-form .logged-in-user {
+      display: flex;
+      align-items: center;
+      padding-left: 30px; }
+      .creating-chat .header-of-form .logged-in-user .user-label {
+        text-align: center;
+        font-size: 40px;
+        color: #494a4e; }
+      .creating-chat .header-of-form .logged-in-user .name-of-user {
+        padding-left: 10px;
+        font-size: 30px;
+        color: #494a4e;
+        text-transform: uppercase; }
+    .creating-chat .header-of-form logout-button {
+      margin-left: auto;
+      margin-bottom: auto; }
+      .creating-chat .header-of-form logout-button #logout {
+        color: #494a4e; }
+    .creating-chat .header-of-form .logo {
+      width: 120px; }
+  .creating-chat .content {
+    display: flex;
+    flex-direction: column; }
+    .creating-chat .content .or {
+      font-size: 20px;
+      font-family: 'Rubik', sans-serif;
+      color: #494a4e;
+      text-align: center;
+      margin-bottom: 30px; }
+    .creating-chat .content .chat-button {
+      font-size: 25px;
+      width: 100%;
+      border: none;
+      padding: 18px;
+      font-family: 'Rubik', sans-serif;
+      cursor: pointer;
+      text-transform: uppercase;
+      background: #494a4e;
+      color: #e1c4b9;
+      font-weight: bold;
+      border-bottom-left-radius: 4px;
+      border-bottom-right-radius: 0;
+      letter-spacing: 0.2px;
+      outline: 0;
+      transition: all .3s;
+      margin-bottom: 40px; }
+      .creating-chat .content .chat-button:hover {
+        background: #e1c4b9;
+        color: #494a4e; }
+    .creating-chat .content .chatID-for-entrance {
+      font-size: 25px;
+      border: none;
+      padding: 5px;
+      font-family: 'Rubik', sans-serif;
+      background: none;
+      color: #494a4e;
+      outline-width: 0;
+      transition: all .3s;
+      margin-bottom: 2px;
+      text-align: center; }
+      .creating-chat .content .chatID-for-entrance::-webkit-outer-spin-button, .creating-chat .content .chatID-for-entrance::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0; }

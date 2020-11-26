@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CHAT</title>
+</head>
+<link href="dist/create-chat.css" rel="stylesheet" type="text/css">
+<script src="https://use.fontawesome.com/c554b9747c.js"></script>
+<script src="logout-button.js"></script>
+<body>
+<div class="creating-chat">
+    <div class="header-of-form">
+        <img src="logo.jpg" class="logo">
+        <div class="logged-in-user">
+            <i class="fa fa-user-o user-label" aria-hidden="true"></i>
+        </div>
+        <logout-button></logout-button>
+    </div>
+
+    <div class="content">
+            <button class="create-chat-button chat-button">
+                <i class="fa fa-plus" aria-hidden="true"></i>
+                Create chat
+            </button>
+            <p class="or">OR</p>
+            <input type="number" placeholder="ENTER CHAT NUMBER" class="chatID-for-entrance">
+            <button class="enter-chat-button chat-button">
+                <i class="fa fa-sign-in" aria-hidden="true"></i>
+                Go chating
+            </button>
+    </div>
+</div>
+</body>
+<script src="create-chat.js" type="module"></script>
+<script src="api.js" type="module"></script>
+</html>
