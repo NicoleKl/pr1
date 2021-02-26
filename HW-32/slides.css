@@ -1,0 +1,97 @@
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.slider {
+    display: flex;
+    overflow: hidden;
+    max-width: 780px;
+    border-bottom: 1px solid rgba(199, 199, 199, 0.2);
+}
+
+.responses {
+    width: 100%;
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-shrink: 0;
+    transition: margin-left 300ms;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user__photo{
+    border-radius: 100%;
+}
+
+.user-information {
+    margin-left: 23px;
+}
+
+.user-information__name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #635c73;
+    margin: 0;
+}
+
+.user-information__nickname {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #8d81ac;
+    margin: 7px 0 0 0;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    padding-top: 48px;
+}
+
+.quote__nav {
+    color: #474747;
+    font-size: 30px;
+}
+
+.cit__text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.6;
+    color: #333333;
+    max-width: 720px;
+    margin: 0;
+}
+
+.cit__time {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #848e97;
+    margin: 0;
+    margin-top: 25px;
+}
+
+.cit {
+    padding:0 30px 56px 30px;
+}
+
+.fa-angle-left {
+    margin-right: 100px;
+}
+
+.fa-angle-right {
+    margin-left: 100px;
+    margin-right: auto;
+}
